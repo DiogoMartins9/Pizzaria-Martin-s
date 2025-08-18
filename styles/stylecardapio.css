@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #D23333
+}
+
+header {
+    display: flex;
+    background-color: #1D1B1B;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Happy Monkey", system-ui;
+    gap: 35vh;
+    font-size: 2rem;
+}
+
+.titulo_cardapio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Imperial Script", cursive;
+    font-size: 5rem;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.mussarela {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Imperial Script", cursive;
+    font-size: 4rem;    
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carrossel-container {
+  display: flex;
+  justify-content: center; 
+  width: 100%;
+  padding: 20px; 
+}
+
+.carrossel {
+  display: flex;
+  gap: 150px;  
+  flex-wrap: wrap; 
+}
+
+.card {
+  width: 400px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.pizza_nome {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Happy Monkey", system-ui;
+}
+
+.descricao_pizza {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: -30px;
+    font-family: "Happy Monkey", system-ui;
+}
+
+.calabresa {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Imperial Script", cursive;
+    font-size: 4rem;    
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.frango {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Imperial Script", cursive;
+    font-size: 4rem;    
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carne {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Imperial Script", cursive;
+    font-size: 4rem;    
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.doce {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Imperial Script", cursive;
+    font-size: 4rem;    
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

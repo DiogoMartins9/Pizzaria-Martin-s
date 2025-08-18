@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #D23333
+    
+}
+
+header {
+    display: flex;
+    background-color: #1D1B1B;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Happy Monkey", system-ui;
+    gap: 35vh;
+    font-size: 2rem;
+}
+
+.titulo_sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Imperial Script", cursive;
+    font-size: 5rem;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.titulo_inicial {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Imperial Script", cursive;
+    font-size: 4rem;    
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto_inicial {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Happy Monkey", system-ui;
+    font-size: 2.8rem;    
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+}
+
+.titulo_objetivo {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Imperial Script", cursive;
+    font-size: 4rem;    
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto_objetivo {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Happy Monkey", system-ui;
+    font-size: 2.8rem;    
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.fachada {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 50px;
+    margin-top: -300px;    
+}
+
+.pizzaria {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 50px;
+    margin-top: 150px; 
+}
+
+.titulo_atual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Imperial Script", cursive;
+    font-size: 4rem;    
+    color: #FFFFFF;
+    margin-top: -600px;
+    margin-left: -250px;
+    margin-bottom: 20px;
+}
+
+.texto_atual {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family: "Happy Monkey", system-ui;
+    font-size: 2.8rem;    
+    color: #FFFFFF;
+    margin-top: -700px;
+    margin-bottom: 60px;
+}
+
+.titulo_lema {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Imperial Script", cursive;
+    font-size: 4rem;    
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 550px;
+    margin-bottom: 20px;
+}
+
+.texto_lema {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: "Happy Monkey", system-ui;
+    font-size: 2.8rem;    
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+}
