@@ -203,3 +203,140 @@ footer {
   margin-top: 70px;
 }
 
+@media screen and (max-width: 1024px) {
+    footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1B1B;
+    justify-content: center;
+    align-items: center;
+    font-family: "Happy Monkey", system-ui;
+    font-size: 1.5rem;
+    padding: 25px 10px;
+    margin-top: 100px;
+    gap: 15px;
+    }
+
+    .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vh;
+    font-size: 1.2rem;
+    }
+
+    .titulo_sobre{
+        font-size: 8rem;
+    }
+
+    .titulo_inicial{
+        font-size: 6rem;
+    }
+
+    .texto_inicial{
+        font-size: 1.5rem;
+    }
+
+    .titulo_objetivo{
+        font-size: 6rem;
+    }
+
+    .texto_objetivo{
+        font-size: 1.5rem;
+    }
+
+    .titulo_atual {
+        font-size: 6rem;
+        margin-top: -500px;
+        margin-left: -150px;
+        margin-bottom: 20px;
+    }
+
+    .texto_atual {
+        font-size: 1.5rem;
+        margin-top: -450px;
+        margin-bottom: 30px;
+        margin-left: 600px;
+    }
+
+    .titulo_lema{
+        font-size: 6rem;
+    }
+
+    .texto_lema{
+        font-size: 1.5rem;
+    }
+
+    .rodape-topo {
+        margin-top: -90px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1B1B;
+    justify-content: center;
+    align-items: center;
+    font-family: "Happy Monkey", system-ui;
+    font-size: 1.5rem;
+    padding: 25px 10px;
+    margin-top: 100px;
+    gap: 15px;
+    }
+
+    .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    font-size: 1.2rem;
+    }
+
+    .titulo_sobre{
+        font-size: 6rem;
+    }
+
+    .titulo_inicial{
+        font-size: 4rem;
+    }
+
+    .texto_inicial{
+        font-size: 1rem;
+    }
+
+    .titulo_objetivo{
+        font-size: 4rem;
+    }
+
+    .texto_objetivo{
+        font-size: 1rem;
+    }
+
+    .titulo_atual {
+        font-size: 4rem;
+        margin-top: -500px;
+        margin-left: -150px;
+        margin-bottom: 20px;
+    }
+
+    .texto_atual {
+        font-size: 1rem;
+        margin-top: -500px;
+        margin-bottom: 30px;
+        margin-left: 500px;
+    }
+
+    .titulo_lema{
+        font-size: 4rem;
+    }
+
+    .texto_lema{
+        font-size: 1rem;
+    }
+
+    .rodape-topo {
+        margin-top: -90px;
+    } 
+}
